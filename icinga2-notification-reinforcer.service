@@ -1,0 +1,6 @@
+[Unit]
+Description=Icinga2 notification reinforcer
+
+[Service]
+Type=Simple
+ExecStart=/usr/bin/python3 $PATH_TO_SCRIPT
